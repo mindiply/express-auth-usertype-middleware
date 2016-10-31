@@ -1,0 +1,29 @@
+{
+  "name": "@bongione/express-auth-usertype-middleware",
+  "version": "0.1.0",
+  "description": "Express middleware that provides authorization middleware in front of routes for normal, admin and sysadmin users",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindiply/express-auth-usertype-middleware.git"
+  },
+  "keywords": [
+    "express",
+    "passport",
+    "middleware"
+  ],
+  "author": "Paolo Ferdinando Bongiovanni <paolo.bongiovanni@mindiply.com>",
+  "license": "\tApache-2.0",
+  "bugs": {
+    "url": "https://github.com/mindiply/express-auth-usertype-middleware/issues"
+  },
+  "homepage": "https://github.com/mindiply/express-auth-usertype-middleware#readme",
+  "devDependencies": {
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
